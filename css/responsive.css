@@ -1,0 +1,144 @@
+@media all and (max-width:1000px) {
+	.top-header {
+		display: none;
+	}
+
+	#nav {
+		position: absolute;
+		top: 0;
+		left: -320px;
+		width: 320px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 100vh;
+		overflow: auto;
+		background-color: #082d53;
+		z-index: 10000;
+		padding: 30px;
+		box-sizing: border-box;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+
+	.menu li {
+		float: none;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+	.menu li a {
+		color: #ffffff;
+	}
+
+	#openmenu,
+	#closemenu {
+		display: inline-block;
+	}
+
+	.reviews {
+		-webkit-transform: translateX(10%);
+		-ms-transform: translateX(10%);
+		transform: translateX(10%);
+	}
+
+	.wrapper-phone-header {
+		display: none;
+	}
+
+	#closemenu {
+		-ms-flex-item-align: end;
+		align-self: flex-end;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media all and (max-width:900px) {
+	h2 {
+		font-size: 40px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	.single-excellence h2 {
+		font-size: 20px;
+	}
+
+	.wrapper-services article {
+		width: calc(33.333333% - 30px);
+	}
+
+	.progress-title,
+	.progress-wrapper-blocks,
+	.appointment-content {
+		width: 100%;
+	}
+
+	.appointment-img {
+		display: none;
+	}
+
+	.wrapper-contacts>div {
+		width: 50%;
+	}
+}
+
+@media all and (max-width:769px) {
+	.single-excellence {
+		width: 100%;
+		padding: 30px 30px;
+	}
+
+	.about-img,
+	.about-content {
+		width: 100%;
+	}
+
+	.wrapper-services article {
+		width: calc(50% - 30px);
+	}
+}
+
+@media all and (max-width:450px) {
+	.wrapper-services article {
+		width: calc(100% - 30px);
+	}
+
+	.progress-single {
+		width: 100%;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.wrapper-input p {
+		width: 100%;
+	}
+
+	.wrapper-contacts>div {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media all and (max-width:350px) {
+	h2 {
+		font-size: 30px;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.progress-num {
+		font-size: 30px;
+	}
+}
