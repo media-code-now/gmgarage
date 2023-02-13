@@ -12,7 +12,7 @@
 	}
 	else 
 	{
-		$recipient = 'info@companyname.com';
+		$recipient = 'gmgaragedoorleads@gmail.com';
 		
 		$mail_body =
             "Name: " . $name  ."\r\n" .
